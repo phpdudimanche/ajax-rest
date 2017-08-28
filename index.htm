@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<!-- test api rest with : jquery, mustache.js, twiterbootstrap -->
+<html>
+<head><title>client REST API CRUD</title>
+</head>
+<body>
+
+<!-- html needed -->
+<div>
+    <p class="msg"></p>
+</div>	   
+	   
+<form id="issue">
+	<label>Identifier : </label><input type="text" id="id" size=3 name="id"/>
+	<label>Title : </label><input type="text" id="title" size=50 name="title"/>
+	<button id="btnCreate">Create</button>
+	<button id="btnRead">Read</button>
+	<button id="btnUpdate">Update</button>
+	<button id="btnDelete">Delete</button>
+	 - <button id="btnClear">Clear form</button>
+</form>	  
+	   
+<!-- minimalist version : without css, twiterbootstrap, mustachejs -->
+<script src="lib/jquery-3.2.1.min.js"></script>
+<script src="scripts/interact.js"></script>
+</body>
+</html>
