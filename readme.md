@@ -1,6 +1,6 @@
 # ajax jquery REST client #
 
-This is the client for my rest server example ([from scratch](https://github.com/phpdudimanche/rest), or [with slim]((https://github.com/phpdudimanche/slim-rest))).   
+This is the client for my rest server example ([from scratch](https://github.com/phpdudimanche/rest), or [with slim](https://github.com/phpdudimanche/slim-rest)).   
 
 ## Content ##
 
