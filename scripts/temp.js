@@ -24,15 +24,12 @@ var tplFooter="<strong>{{footer.name}}</strong> - {{footer.copyright}}";// one l
 var tplHeader="<strong>{{header.title}}</strong> - "+
 			"<i>{{header.description}}</i>"+
 			"<ul>{{#header.elements}}<li>{{.}}</li>{{/header.elements}}</ul>";// multiline with +
-var tplFrame="{{> theheader}}<hr />{{> thecontent}}<br /><hr />{{> thefooter}}";
-var tplContent="<br />"+
-"<div>"+
-    "<p class=\"msg\">{{mymsg}}</p>"+
-"</div>	 "+  	   
+var tplFrame="{{> theheader}}<hr />{{> thecontent}}<hr />{{> thefooter}}";
+var tplContent="<p class=\"msg\">{{mymsg}}</p>"+  
 "<form id=\"issue\">"+
-	"<label>Identifier : </label><input type=\"text\" id=\"id\" value=\"{{myid}}\" size=3 name=\"id\"/>"+
-	"<label>Title : </label><input type=\"text\" id=\"title\" value=\"{{mytitle}}\" size=50 name=\"title\"/>"+
-	"<button id=\"btnCreate\">Create</button>"+
+	"<label for=\"id\">Identifier : </label><input type=\"text\" id=\"id\" value=\"{{myid}}\" size=3 name=\"id\" placeholder=\"your id\"/><br />"+
+	"<label for=\"title\">Title : </label><input type=\"text\" id=\"title\" value=\"{{mytitle}}\" size=43 name=\"title\" placeholder=\"your title\"/><br />"+
+	"<label>&nbsp;</label><button id=\"btnCreate\">Create</button>"+
 	"<button id=\"btnRead\">Read</button>"+
 	"<button id=\"btnUpdate\">Update</button>"+
 	"<button id=\"btnDelete\">Delete</button>"+

@@ -1,0 +1,76 @@
+body{
+	margin:1em;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size:0.8em;
+	color:black;
+}	
+hr {
+	display:block;
+	clear:both;
+	height: 6px;
+	background: url(hr.png) repeat-x 0 0;
+    border: 0;
+	margin: 20px 0 20px;
+}
+br{
+	clear:both;
+}
+ul,li{
+	display:inline;padding-left:0.3em;vertical-align:top;
+}
+button {
+	margin-top:5px;
+	border:1px solid rgb(128,128,128);
+	border-radius:4px;
+	margin-left:5px;
+	padding:5px 8px 5px 8px;
+}
+button:hover{
+	background :rgb(126, 139, 160);
+	color: #FFFFFF;
+}
+button:active{
+	background :rgb(126, 139, 160);
+	color: yellow;
+}
+/* form alignemnt without div or p, but with : br, &nbsp in label... */
+label
+{
+	width: 140px;
+	padding-left: 15px;
+	margin: 5px;
+	display:block;
+	float: left;
+	text-align: left;
+}
+input
+{
+	display:inline;
+	height:1.5em;
+	margin: 5px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+}
+/* fadding message */
+.msg{
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@media screen and (max-width: 880px) { 
+ul{display:block;}
+li{display:block;list-style: none;padding-bottom:0.3em}
+}
+@media screen and (max-width: 615px) {
+label{width:100%;padding:0}
+}

@@ -20,6 +20,12 @@ This is the client for my rest server example ([from scratch](https://github.com
 
 - ajax jquery lib : jquery-...min.js
 - OR/AND mustachejs lib : mustache-min.js
+- optional css browser reset : normalize.css
+
+### Design ###
+
+- optional stylesheet : design.css
+- media related to stylesheet : hr.png
 
 
 
